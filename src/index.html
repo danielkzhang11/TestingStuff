@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <div>hello there</div>
-    
-    
-
+    <div id="level0" class="flex justify-between screen text-center m-20" data-theme="light">
+        <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl">item1</button>
+        <button id = "shrinkButton" class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl" onclick = goNext()>item2</button>
+        <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl">item3</button>
+        <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl">item4</button>
+        <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl">item5</button>
+        <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl">item6</button>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
